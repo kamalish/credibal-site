@@ -5,7 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'Gridsome',
+    siteName: 'Credibal',
+    siteUrl: 'https://kamalish.github.io',
+    pathPrefix: 'credibal-site.git',
     plugins: [{
         use: '@gridsome/source-wordpress',
         options: {
